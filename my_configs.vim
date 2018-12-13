@@ -11,6 +11,5 @@ autocmd BufNewFile,BufRead SConstruct syn keyword Function Fetch Flow Plot Resul
 
 " Set a ruler for column 80
 let &colorcolumn=join(range(81,999),",")
-highlight ColorColumn ctermbg=8
-"highlight ColorColumn ctermbg=4
+highlight ColorColumn ctermbg=8 guibg=black
 "set colorcolumn=80
